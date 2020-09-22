@@ -11,6 +11,12 @@
         "lib": [
             "es2020",
             "dom"
-        ]
+        ],
+        "outDir": "./dist/",
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": ".",
+        "paths": {
+          "@/*": ["./src/*"]
+        }
     }
 }

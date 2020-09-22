@@ -1,3 +1,4 @@
 .vscode/snipsnap.code-snippets
 node_modules
 .env
+dist
