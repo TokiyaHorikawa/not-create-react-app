@@ -1,11 +1,17 @@
 {
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "build": "webpack",
+    "watch": "webpack -w"
+  },
   "devDependencies": {
     "@types/react": "^16.9.49",
     "@types/react-dom": "^16.9.8",
     "ts-loader": "^8.0.4",
     "typescript": "^4.0.3",
     "webpack": "^4.44.2",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
     "react": "^16.13.1",
