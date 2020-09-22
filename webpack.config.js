@@ -80,8 +80,14 @@ module.exports = (env = {}, argv) => {
   postcssPlugins.push(autoprefixer());
 
   const entry = {
-    app: [`${dir.src}/App/index.tsx`],
-    login: [`${dir.src}/pages/Login.tsx`],
+    app: [
+      `${dir.src}/App/index.tsx`,
+      `${dir.src}/css/reset.css`
+    ],
+    login: [
+      `${dir.src}/pages/Login.tsx`,
+      `${dir.src}/css/reset.css`
+    ],
   };
 
   if (!isProd) {
